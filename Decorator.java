@@ -8,8 +8,9 @@ import java.util.*;
 
 public class Test{
     public static void main(String[] args){
-        Drink coffee=new Coffee();
+        Drink coffee;
         //System.out.println(coffee.getCost());
+        coffee=new Coffee();
         coffee=new Milk(coffee);
         coffee=new Diamond(coffee);
 
